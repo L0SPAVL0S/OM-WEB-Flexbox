@@ -1,0 +1,53 @@
+/*
+  Flexbox řešení modulů 1-5
+  Doplňte CSS vlastnosti pro každý modul podle zadání v README.md
+*/
+
+/* Modul 1: Horizontální navigační panel */
+.main-nav {
+  /* TODO */
+}
+
+.actions {
+  /* TODO */
+}
+
+/* Modul 2: Hlavní upoutávka (centrování) */
+.hero {
+  /* TODO */
+}
+
+/* Modul 3: Responzivní produktová galerie */
+.gallery-grid {
+  /* TODO */
+}
+
+.product-card {
+  /* TODO */
+}
+
+/* Modul 4: Srovnávací cenové karty */
+.pricing {
+  /* TODO */
+}
+
+.plan-card {
+  /* TODO */
+}
+
+.buy-btn {
+  /* TODO */
+}
+
+/* Modul 5: Media objekt typu "Komentář" */
+.media-object {
+  /* TODO */
+}
+
+.avatar {
+  /* TODO */
+}
+
+.comment-body {
+  /* TODO */
+}

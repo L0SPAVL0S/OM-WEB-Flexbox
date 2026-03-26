@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Modularni Testovaci Stranka</title>
+    <link rel="stylesheet" href="styles-zadani.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h1>Flexbox: modularni testovaci architektura</h1>
+      <p>
+        Referencni implementace bez CSS Gridu a bez absolutniho pozicovani pro
+        strukturualni layout.
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="module" aria-labelledby="modul-1-title">
+        <h2 id="modul-1-title">Modul 1: Horizontalni navigacni panel</h2>
+        <nav class="main-nav" aria-label="Hlavni navigace">
+          <div class="logo">FLEX LAB</div>
+
+          <ul class="nav-links">
+            <li><a href="#">Domu</a></li>
+            <li><a href="#">Produkty</a></li>
+            <li><a href="#">Cenik</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+
+          <div class="actions">
+            <button type="button" class="btn btn-ghost">Prihlasit</button>
+            <button type="button" class="btn btn-solid">Registrovat</button>
+          </div>
+        </nav>
+      </section>
+
+      <section class="module" aria-labelledby="modul-2-title">
+        <h2 id="modul-2-title">Modul 2: Hlavni upoutavka</h2>
+        <section class="hero">
+          <div class="hero-content">
+            <h3>Dokonale centrovani ve dvou osach</h3>
+            <p>
+              Tento blok je geometricky vycentrovan pomoci justify-content a
+              align-items na rodicovskem flex kontejneru.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <section class="module" aria-labelledby="modul-3-title">
+        <h2 id="modul-3-title">Modul 3: Responzivni produktova galerie</h2>
+        <div class="gallery-grid">
+          <article class="product-card">
+            <h3>Produkt A</h3>
+            <p>Kompaktni varianta pro rychle nasazeni.</p>
+          </article>
+          <article class="product-card">
+            <h3>Produkt B</h3>
+            <p>Vysoka odolnost a snadne rozsireni.</p>
+          </article>
+          <article class="product-card">
+            <h3>Produkt C</h3>
+            <p>Optimalizace vykonu pro vyssi zatez.</p>
+          </article>
+          <article class="product-card">
+            <h3>Produkt D</h3>
+            <p>Vhodne pro tymovou spolupraci a reporting.</p>
+          </article>
+          <article class="product-card">
+            <h3>Produkt E</h3>
+            <p>Modularni sada funkci s rychlou konfiguraci.</p>
+          </article>
+          <article class="product-card">
+            <h3>Produkt F</h3>
+            <p>Stabilni jadro s dlouhodobou podporou.</p>
+          </article>
+          <article class="product-card">
+            <h3>Produkt G</h3>
+            <p>Pokrocile analyticke moznosti v realnem case.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="module" aria-labelledby="modul-4-title">
+        <h2 id="modul-4-title">Modul 4: Srovnavaci cenove karty</h2>
+        <section class="pricing" aria-label="Cenove plany">
+          <div class="plan-card">
+            <h3>Start</h3>
+            <ul class="plan-features">
+              <li>1 projekt</li>
+              <li>Email podpora</li>
+              <li>Zakladni metriky</li>
+            </ul>
+            <button class="buy-btn" type="button">Koupit plan</button>
+          </div>
+
+          <div class="plan-card">
+            <h3>Pro</h3>
+            <ul class="plan-features">
+              <li>10 projektu</li>
+              <li>Prioritni podpora</li>
+              <li>Pokrocile metriky</li>
+              <li>Integrace API</li>
+              <li>Audit log</li>
+            </ul>
+            <button class="buy-btn" type="button">Koupit plan</button>
+          </div>
+
+          <div class="plan-card">
+            <h3>Enterprise</h3>
+            <ul class="plan-features">
+              <li>Neomezeny pocet projektu</li>
+              <li>Dedikovany support manager</li>
+              <li>Vlastni SLA</li>
+              <li>SSO a centralni sprava pristupu</li>
+            </ul>
+            <button class="buy-btn" type="button">Koupit plan</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="module" aria-labelledby="modul-5-title">
+        <h2 id="modul-5-title">Modul 5: Media objekt typu komentare</h2>
+        <div class="media-object">
+          <img
+            class="avatar"
+            src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=128&q=80"
+            alt="Avatar uzivatele"
+            width="64"
+            height="64"
+          />
+          <div class="comment-body">
+            <h3>Anna K.</h3>
+            <p>
+              Velmi dlouhy testovaci text pro overeni, ze textovy blok absorbije
+              zbyvajici prostor, korektne se zalamuje a avatar zustava pevny bez
+              deformace i pri zmenseni viewportu.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

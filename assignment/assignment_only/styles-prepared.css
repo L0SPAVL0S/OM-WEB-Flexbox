@@ -1,0 +1,181 @@
+/*
+  Předpřipravené základní styly - vzhled a prezentace.
+  POZOR: Tyto styly NEobsahují Flexbox vlastnosti - ty doplníte v styles-flexbox.css
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  line-height: 1.5;
+  color: #1f2a37;
+  background: #f7f7f7;
+}
+
+.page-header,
+.container {
+  width: min(1100px, 92vw);
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: 1.5rem 0 0.75rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.8rem;
+}
+
+.page-header p {
+  margin: 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.module {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.module h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  padding: 0.3rem 0.6rem;
+}
+
+.nav-links a:hover {
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.btn {
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-solid {
+  background: #1b7f5f;
+  color: #fff;
+  border-color: #1b7f5f;
+}
+
+.hero {
+  min-height: 400px;
+  background: linear-gradient(135deg, #f0f9f7 0%, #f5f0fb 100%);
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  padding: 1rem;
+}
+
+.hero-content h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.hero-content p {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.product-card {
+  border: 1px solid #e0e0e0;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.product-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.product-card p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.plan-card {
+  border: 1px solid #e0e0e0;
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.plan-card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.plan-features li {
+  padding: 0.3rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.buy-btn {
+  border: 0;
+  background: #d17432;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.media-object {
+  border: 1px solid #e0e0e0;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.comment-body h3 {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+}
+
+.comment-body p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
